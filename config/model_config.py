@@ -30,7 +30,7 @@ NUM_SAMPLES_NEW = 500    # Samples for "outdated" facts (to force learning)
 
 # Model Training Settings
 MAX_SEQ_LENGTH = 512
-DTYPE = torch.bfloat16
+DTYPE = torch.float16
 LOAD_IN_4BIT = False
 NUM_EPOCHS = 4
 BATCH_SIZE = 4
