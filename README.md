@@ -72,8 +72,11 @@ What it does:
 - Prompts you to enter 10 questions manually.
 - Validates each answer against Google Search in real-time.
 - Automatic Trigger:
-  - If the model gets 9 or more correct: It passes (no training needed).
-  - If the model gets 8 or fewer correct: It automatically triggers the fine-tuning pipeline to learn from your new questions.
+  - If the model gets 9 or more correct:
+    - It passes (no training needed).
+  - If the model gets 8 or fewer correct:
+    - It automatically triggers the fine-tuning pipeline to learn from your new data.
+    - It saves the new fine-tuned model.
 
 
 
